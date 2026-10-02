@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Portfolio of Alaleh Saberilemraski, a Media Engineering student focused on front-end development, UX research, and usability engineering." name="description"/>
+<title>Alaleh Saberilemraski | Portfolio</title>
+<link href="assets/as-logo.png" rel="icon" type="image/png"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet"/>
+<script defer="" src="script.js"></script>
+</head>
+<body>
+<div class="page-stage">
+<section aria-labelledby="page-title" class="home-panel portfolio-section" id="home">
+<header class="site-header">
+<a aria-label="Alaleh Saberilemraski — Home" class="brand" href="#home">
+<img alt="AS monogram surrounded by a burgundy laurel wreath" class="brand__image" src="assets/as-logo.png"/>
+</a>
+<button aria-controls="primary-navigation" aria-expanded="false" class="menu-toggle" type="button">
+<span class="sr-only">Open navigation</span>
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+</button>
+<nav aria-label="Home page navigation" class="primary-nav" id="primary-navigation">
+<ul class="nav-list">
+<li>
+<a class="nav-link nav-link--current" href="#home">Home</a>
+</li>
+<li class="nav-item--dropdown">
+<button aria-controls="experience-menu-home" aria-expanded="false" class="nav-link dropdown-trigger" type="button">
+                  Experience
+                  <span aria-hidden="true" class="chevron"></span>
+</button>
+<ul class="dropdown" id="experience-menu-home">
+<li><a href="#professional">Professional</a></li>
+<li><a href="#academic">Academic</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#skills">Skills</a></li>
+<li><a class="nav-link" href="#ambitions">Ambitions</a></li>
+</ul>
+</nav>
+<div aria-label="Social and language links" class="header-tools" role="group">
+<a aria-label="Open Alaleh's LinkedIn profile" class="social-link linkedin-mark" href="https://www.linkedin.com/in/alaleh-saberi-9180b8286" rel="noopener noreferrer" target="_blank" title="LinkedIn">in</a>
+<a aria-label="Open Alaleh's GitHub profile" class="social-link github-mark" href="https://github.com/AlalehSaberi" rel="noopener noreferrer" target="_blank" title="GitHub">
+<svg aria-hidden="true" focusable="false" viewbox="0 0 24 24">
+<path d="M12 .8a11.4 11.4 0 0 0-3.6 22.2c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.5-1.4-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-6a4.7 4.7 0 0 1 1.3-3.2c-.1-.3-.6-1.6.1-3.2 0 0 1-.3 3.4 1.2a11.7 11.7 0 0 1 6.2 0c2.4-1.6 3.4-1.2 3.4-1.2.7 1.6.2 2.9.1 3.2a4.7 4.7 0 0 1 1.3 3.2c0 4.7-2.8 5.7-5.5 6 .4.4.8 1.1.8 2.2v3.2c0 .4.2.7.8.6A11.4 11.4 0 0 0 12 .8Z"></path>
+</svg>
+</a>
+<div class="language-switcher">
+<button aria-controls="language-menu" aria-expanded="false" aria-haspopup="true" class="language-trigger" type="button">
+<span aria-hidden="true" class="globe-icon"></span>
+<span class="language-current">Eng</span>
+<span aria-hidden="true" class="language-chevron"></span>
+</button>
+<div class="language-menu" hidden="" id="language-menu">
+<button data-language="en" lang="en" type="button">
+                  English
+                </button>
+<button data-language="de" lang="de" type="button">
+                  Deutsch
+                </button>
+</div>
+</div>
+</div>
+</header>
+<div class="hero-copy">
+<p class="eyebrow">Hello, I’m</p>
+<h1 id="page-title">Alaleh Saberilemraski</h1>
+<div aria-hidden="true" class="flourish">
+<span></span>
+<b>✦</b>
+<span></span>
+</div>
+<p class="intro">Media Engineering student moving towards</p>
+<p class="specialisms">
+            UX Research &amp;
+            Usability Engineering
+          </p>
+<p class="summary">
+            Through user research, empathy, accessibility, and thoughtful<br class="desktop-break"/>
+            interface design, I turn complex problems into clear, usable,<br class="desktop-break"/>
+            and meaningful solutions.
+          </p>
+<a class="primary-button" href="#professional">Discover my work</a>
+</div>
+<aside aria-label="Profile at a glance" class="profile-card">
+<label class="portrait-placeholder has-image" title="Upload your portrait">
+<input accept="image/*" aria-label="Upload your portrait" class="portrait-upload-input" type="file"/>
+<img alt="Portrait of Alaleh Saberilemraski" class="portrait-preview" src="assets/portrait-alaleh.jpg"/>
+<span aria-hidden="true" class="portrait-glow"></span>
+<span aria-hidden="true" class="portrait-star">✦</span>
+</label>
+<div class="profile-details">
+<div class="profile-row">
+<span aria-hidden="true" class="line-icon icon-book"><i></i></span>
+<p>
+<strong>Master’s Student</strong>
+<span>Media Engineering,<br/>TU Ilmenau</span>
+</p>
+</div>
+<div class="profile-row">
+<span aria-hidden="true" class="line-icon icon-focus"><i></i></span>
+<p>
+<strong>Focus</strong>
+<span>UX Research &amp;<br/>Usability
+                  Engineering</span>
+</p>
+</div>
+<div class="profile-row profile-row--compact">
+<span aria-hidden="true" class="line-icon icon-pin"><i></i></span>
+<p><span>Ilmenau, Germany</span></p>
+</div>
+<div class="profile-row profile-row--compact">
+<span aria-hidden="true" class="line-icon icon-mail"><i></i></span>
+<p>
+<a href="mailto:saberialaleh@gmail.com">saberialaleh@gmail.com</a>
+</p>
+</div>
+</div>
+<blockquote class="profile-quote">
+<span aria-hidden="true">“</span>
+<p>Just an old soul trying to survive in the modern world</p>
+</blockquote>
+</aside>
+</section>
+<section aria-labelledby="professional-title" class="experience-panel portfolio-section" id="professional">
+<header class="site-header site-header--section">
+<a aria-label="Alaleh Saberilemraski — Home" class="brand" href="#home">
+<img alt="AS monogram surrounded by a burgundy laurel wreath" class="brand__image" src="assets/as-logo.png"/>
+</a>
+<button aria-controls="primary-navigation-professional" aria-expanded="false" class="menu-toggle" type="button">
+<span class="sr-only">Open navigation</span>
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+</button>
+<nav aria-label="Professional experience navigation" class="primary-nav" id="primary-navigation-professional">
+<ul class="nav-list">
+<li><a class="nav-link" href="#home">Home</a></li>
+<li class="nav-item--dropdown">
+<button aria-controls="experience-menu-professional" aria-expanded="false" class="nav-link dropdown-trigger nav-link--current" type="button">
+                  Experience
+                  <span aria-hidden="true" class="chevron"></span>
+</button>
+<ul class="dropdown" id="experience-menu-professional">
+<li><a href="#professional">Professional</a></li>
+<li><a href="#academic">Academic</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#skills">Skills</a></li>
+<li><a class="nav-link" href="#ambitions">Ambitions</a></li>
+</ul>
+</nav>
+<div aria-label="Social and language links" class="header-tools" role="group">
+<span aria-label="LinkedIn profile link will be added here" class="linkedin-mark" role="img" title="LinkedIn profile link to be added">in</span>
+<span class="language">
+<span aria-hidden="true" class="globe-icon"></span>
+<span>Eng</span>
+</span>
+</div>
+</header>
+<div class="experience-layout">
+<div class="experience-heading">
+<div aria-hidden="true" class="timeline-ornament">
+<span class="timeline-star">✦</span>
+<span class="timeline-line"></span>
+<span class="timeline-node"><i></i></span>
+<span class="timeline-dots"><i></i><i></i><i></i><i></i></span>
+</div>
+<div class="experience-heading__copy">
+<h2 id="professional-title">Professional<br/>Experience</h2>
+<div aria-hidden="true" class="experience-flourish">
+<span></span><b>✦</b><span></span>
+</div>
+</div>
+</div>
+<article class="experience-card">
+<p class="experience-kicker">
+              Featured project
+              <span aria-hidden="true">·</span>
+<a href="https://alalehsaberi.github.io/autosell-car-dealership/" rel="noopener noreferrer" target="_blank">AutoSell
+                <span aria-hidden="true" class="external-arrow">↗</span></a>
+</p>
+<div class="experience-card__grid">
+<div class="project-showcase">
+<div class="browser-frame">
+<div aria-hidden="true" class="browser-bar">
+<span></span><span></span><span></span>
+</div>
+<section aria-label="AutoSell project screenshots" aria-roledescription="carousel" class="project-carousel" data-carousel="">
+<div class="carousel-track">
+<a aria-label="View the AutoSell home page on the live website" class="carousel-slide carousel-slide--image is-active" href="https://alalehsaberi.github.io/autosell-car-dealership/" rel="noopener noreferrer" target="_blank">
+<img alt="AutoSell home page with a black sports car, Persian navigation, and a vehicle browsing button" height="1140" src="assets/autosell-home.png" width="2048"/>
+</a>
+<a aria-label="View the AutoSell sign-in page on the live website" class="carousel-slide carousel-slide--image" href="https://alalehsaberi.github.io/autosell-car-dealership/" rel="noopener noreferrer" target="_blank">
+<img alt="AutoSell Persian sign-in page with username and password fields" height="1145" loading="lazy" src="assets/autosell-sign-in.png" width="2048"/>
+</a>
+<a aria-label="View the AutoSell vehicle listings page on the live website" class="carousel-slide carousel-slide--image" href="https://alalehsaberi.github.io/autosell-car-dealership/" rel="noopener noreferrer" target="_blank">
+<img alt="AutoSell Persian vehicle listings page with filters and a car listing card" height="910" loading="lazy" src="assets/autosell-listings.png" width="2048"/>
+</a>
+<a aria-label="View the AutoSell vehicle details page on the live website" class="carousel-slide carousel-slide--image" href="https://alalehsaberi.github.io/autosell-car-dealership/" rel="noopener noreferrer" target="_blank">
+<img alt="AutoSell Persian vehicle details page with a large car photo, gallery thumbnails, and specifications" height="1131" loading="lazy" src="assets/autosell-details.png" width="2048"/>
+</a>
+</div>
+<button aria-label="Show previous AutoSell screenshot" class="carousel-control carousel-control--previous" type="button">
+<span aria-hidden="true">‹</span>
+</button>
+<button aria-label="Show next AutoSell screenshot" class="carousel-control carousel-control--next" type="button">
+<span aria-hidden="true">›</span>
+</button>
+</section>
+</div>
+<div aria-label="Choose an AutoSell screenshot" class="carousel-pagination" role="group">
+<button aria-label="Show screenshot 1" class="is-active" type="button"></button>
+<button aria-label="Show screenshot 2" type="button"></button>
+<button aria-label="Show screenshot 3" type="button"></button>
+<button aria-label="Show screenshot 4" type="button"></button>
+</div>
+<ul class="technology-list">
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>Figma</li>
+</ul>
+</div>
+<div class="experience-description">
+<h3>Iran</h3>
+<p class="experience-period">2022–2024</p>
+<p>
+                  Over two years (2022–2024), I worked as
+                  a front-end web designer and developer in Iran, running requirements interviews with clients and translating their goals into interface decisions.
+                  This included AutoSell, a five-page car-dealership site with a right-to-left Persian layout, custom dropdown filters, an image gallery, and a favorites toggle. Presenting concepts to clients and iterating on their feedback is what first pulled me toward UX research, and led me to continue my education at
+                  <a href="https://www.tu-ilmenau.de/en/" rel="noopener noreferrer" target="_blank">Technische Universität Ilmenau</a>.
+                </p>
+<a class="project-link" href="https://alalehsaberi.github.io/autosell-car-dealership/" rel="noopener noreferrer" target="_blank">Visit AutoSell <span aria-hidden="true">↗</span></a>
+</div>
+</div>
+</article>
+</div>
+<a aria-label="Continue to Academic Experience" class="section-next" href="#academic">
+<span aria-hidden="true"></span>
+</a>
+</section>
+<section aria-labelledby="academic-title" class="experience-panel portfolio-section experience-panel--academic" id="academic">
+<header class="site-header site-header--section">
+<a aria-label="Alaleh Saberilemraski — Home" class="brand" href="#home">
+<img alt="AS monogram surrounded by a burgundy laurel wreath" class="brand__image" src="assets/as-logo.png"/>
+</a>
+<button aria-controls="primary-navigation-academic" aria-expanded="false" class="menu-toggle" type="button">
+<span class="sr-only">Open navigation</span>
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+</button>
+<nav aria-label="Academic experience navigation" class="primary-nav" id="primary-navigation-academic">
+<ul class="nav-list">
+<li><a class="nav-link" href="#home">Home</a></li>
+<li class="nav-item--dropdown">
+<button aria-controls="experience-menu-academic" aria-expanded="false" class="nav-link dropdown-trigger nav-link--current" type="button">
+                  Experience
+                  <span aria-hidden="true" class="chevron"></span>
+</button>
+<ul class="dropdown" id="experience-menu-academic">
+<li><a href="#professional">Professional</a></li>
+<li><a href="#academic">Academic</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#skills">Skills</a></li>
+<li><a class="nav-link" href="#ambitions">Ambitions</a></li>
+</ul>
+</nav>
+<div aria-label="Social and language links" class="header-tools" role="group">
+<span aria-label="LinkedIn profile link will be added here" class="linkedin-mark" role="img" title="LinkedIn profile link to be added">in</span>
+<span class="language">
+<span aria-hidden="true" class="globe-icon"></span>
+<span>Eng</span>
+</span>
+</div>
+</header>
+<div class="experience-layout">
+<div class="experience-heading">
+<div aria-hidden="true" class="timeline-ornament">
+<span class="timeline-star">✦</span>
+<span class="timeline-line"></span>
+<span class="timeline-node"><i></i></span>
+<span class="timeline-dots"><i></i><i></i><i></i><i></i></span>
+</div>
+<div class="experience-heading__copy">
+<h2 id="academic-title">Academic<br/>Experience</h2>
+<div aria-hidden="true" class="experience-flourish">
+<span></span><b>✦</b><span></span>
+</div>
+</div>
+</div>
+<article class="experience-card experience-card--placeholder">
+<div aria-label="Academic projects" aria-roledescription="carousel" class="project-slider" data-project-slider="">
+<div class="project-slider-track">
+<div class="project-slide is-active">
+<p class="experience-kicker">
+                    Research Seminar
+                    <span aria-hidden="true">·</span>
+<span>Humanizing LLM Inference Visualization</span>
+</p>
+<div class="experience-card__grid">
+<div class="project-showcase">
+<div class="browser-frame">
+<div aria-hidden="true" class="browser-bar">
+<span></span><span></span><span></span>
+</div>
+<section aria-label="Research seminar screenshots" aria-roledescription="carousel" class="project-carousel" data-carousel="">
+<div class="carousel-track">
+<div class="carousel-slide carousel-slide--academic is-active has-project-image"><img alt="Research seminar LLM interface with thinking indicator" class="academic-project-image" loading="lazy" src="assets/research-seminar-1.png"/></div>
+<div class="carousel-slide carousel-slide--academic has-project-image"><img alt="Research seminar LLM interface with ring visualization" class="academic-project-image" loading="lazy" src="assets/research-seminar-2.png"/></div>
+<div class="carousel-slide carousel-slide--academic has-project-image"><img alt="Research seminar LLM interface with light-bulb visualization" class="academic-project-image" loading="lazy" src="assets/research-seminar-3.png"/></div>
+</div>
+<button aria-label="Show previous image for academic project 1" class="carousel-control carousel-control--previous" type="button">
+<span aria-hidden="true">‹</span>
+</button>
+<button aria-label="Show next image for academic project 1" class="carousel-control carousel-control--next" type="button">
+<span aria-hidden="true">›</span>
+</button>
+</section>
+</div>
+<div aria-label="Choose an image for academic project 1" class="carousel-pagination" role="group">
+<button aria-label="Show image 1" class="is-active" type="button"></button>
+<button aria-label="Show image 2" type="button"></button>
+<button aria-label="Show image 3" type="button"></button>
+</div>
+<ul class="technology-list technology-list--placeholder">
+<li>UX Research</li>
+<li>HTML/CSS</li>
+<li>JavaScript</li>
+<li>Usability Testing Methods</li>
+<li>Data Visualization</li>
+</ul>
+</div>
+<div class="experience-description">
+<h3>Academic <span>(Germany)</span></h3>
+<p class="experience-period">Oct 2025 - Feb 2026</p>
+<p>
+                        Our team studied how inference-time animations affect how people experience waiting for an LLM's response. I helped design 24 experimental conditions by adapting an existing web-based LLM emulator. After running individual sessions with 20 participants, I analyzed the Likert-scale ratings in Python using repeated-measures ANOVA and 95% confidence intervals, and visualized results with matplotlib. Longer waits significantly reduced satisfaction, and where the animation appeared mattered more than expected — placing it inside the chat felt clearer, but occasionally more distracting.
+                      </p>
+<span class="project-link project-link--placeholder">Full report available on request</span>
+</div>
+</div>
+</div>
+<div aria-hidden="true" class="project-slide">
+<p class="experience-kicker">
+                    Usability Engineering Project
+                    <span aria-hidden="true">·</span>
+<span>Passenger Information Display for Autonomous Buses</span>
+</p>
+<div class="experience-card__grid">
+<div class="project-showcase">
+<div class="browser-frame">
+<div aria-hidden="true" class="browser-bar">
+<span></span><span></span><span></span>
+</div>
+<section aria-label="Autonomous bus project screenshots" aria-roledescription="carousel" class="project-carousel" data-carousel="">
+<div class="carousel-track">
+<div class="carousel-slide carousel-slide--academic is-active has-project-image"><img alt="Autonomous bus emergency interface asking whether anyone is hurt" class="academic-project-image" loading="lazy" src="assets/bus-project-1.png"/></div>
+<div class="carousel-slide carousel-slide--academic has-project-image"><img alt="Autonomous bus emergency interface showing first-aid instructions" class="academic-project-image" loading="lazy" src="assets/bus-project-2.png"/></div>
+<div class="carousel-slide carousel-slide--academic has-project-image"><img alt="Autonomous bus emergency interface showing four first-aid steps" class="academic-project-image" loading="lazy" src="assets/bus-project-3.png"/></div>
+</div>
+<button aria-label="Show previous image for academic project 2" class="carousel-control carousel-control--previous" type="button">
+<span aria-hidden="true">‹</span>
+</button>
+<button aria-label="Show next image for academic project 2" class="carousel-control carousel-control--next" type="button">
+<span aria-hidden="true">›</span>
+</button>
+</section>
+</div>
+<div aria-label="Choose an image for academic project 2" class="carousel-pagination" role="group">
+<button aria-label="Show image 1" class="is-active" type="button"></button>
+<button aria-label="Show image 2" type="button"></button>
+<button aria-label="Show image 3" type="button"></button>
+</div>
+<ul class="technology-list technology-list--placeholder">
+<li>Questionnaires</li>
+<li>Personas</li>
+<li>Figma</li>
+<li>Think-Aloud Testing</li>
+</ul>
+</div>
+<div class="experience-description">
+<h3>Academic <span>(Germany)</span></h3>
+<p class="experience-period">Jun 2025 - Jul 2025</p>
+<p>
+                        Our team designed an in-vehicle information display to help passengers understand what's happening during autonomous-bus emergencies. I ran a requirements study with a 17-question survey, synthesized the responses into four personas and built a horizontal Figma prototype covering three scenarios: ticket control, delays, and accidents. Think-aloud testing with five participants showed that simple, clear displays gave passengers a sense of orientation and trust, and pointed us toward working professionals as a group worth testing next.
+                      </p>
+</div>
+</div>
+</div>
+</div>
+<div class="project-slider-nav">
+<button aria-label="Show previous academic project" class="project-slider-control project-slider-control--previous" type="button">
+<span aria-hidden="true">‹</span>
+</button>
+<div aria-label="Choose an academic project" class="project-slider-pagination" role="group">
+<button aria-label="Show project 1" class="is-active" type="button"></button>
+<button aria-label="Show project 2" type="button"></button>
+</div>
+<button aria-label="Show next academic project" class="project-slider-control project-slider-control--next" type="button">
+<span aria-hidden="true">›</span>
+</button>
+</div>
+</div>
+</article>
+</div>
+<a aria-label="Continue to Skills" class="section-next" href="#skills">
+<span aria-hidden="true"></span>
+</a>
+</section>
+<section aria-labelledby="skills-title" class="skills-panel portfolio-section" id="skills">
+<header class="site-header site-header--section">
+<a aria-label="Alaleh Saberilemraski — Home" class="brand" href="#home">
+<img alt="AS monogram surrounded by a burgundy laurel wreath" class="brand__image" src="assets/as-logo.png"/>
+</a>
+<button aria-controls="primary-navigation-skills" aria-expanded="false" class="menu-toggle" type="button">
+<span class="sr-only">Open navigation</span>
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+</button>
+<nav aria-label="Skills page navigation" class="primary-nav" id="primary-navigation-skills">
+<ul class="nav-list">
+<li><a class="nav-link" href="#home">Home</a></li>
+<li class="nav-item--dropdown">
+<button aria-controls="experience-menu-skills" aria-expanded="false" class="nav-link dropdown-trigger" type="button">
+                  Experience
+                  <span aria-hidden="true" class="chevron"></span>
+</button>
+<ul class="dropdown" id="experience-menu-skills">
+<li><a href="#professional">Professional</a></li>
+<li><a href="#academic">Academic</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link nav-link--current" href="#skills">Skills</a>
+</li>
+<li><a class="nav-link" href="#ambitions">Ambitions</a></li>
+</ul>
+</nav>
+<div aria-label="Social and language links" class="header-tools" role="group">
+<span aria-label="LinkedIn profile link will be added here" class="linkedin-mark" role="img" title="LinkedIn profile link to be added">in</span>
+<span class="language">
+<span aria-hidden="true" class="globe-icon"></span>
+<span>Eng</span>
+</span>
+</div>
+</header>
+<div class="skills-content">
+<div class="skills-intro">
+<div aria-hidden="true" class="skills-rail">
+<span class="skills-rail__star">✦</span>
+<span class="skills-rail__line"></span>
+<span class="skills-rail__node"><i></i></span>
+<span class="skills-rail__dots"><i></i><i></i><i></i></span>
+</div>
+<div class="skills-intro__copy">
+<h2 id="skills-title">How I Work</h2>
+<div aria-hidden="true" class="skills-title-flourish">
+<span></span><b>✦</b><span></span>
+</div>
+<p>From an idea to an experience<br/>people can enjoy</p>
+</div>
+</div>
+<div aria-label="Four-stage working process" class="skills-process">
+<svg aria-hidden="true" class="skills-wave" preserveaspectratio="none" viewbox="0 0 1000 150">
+<path class="skills-wave__echo" d="M 14 116 C 94 37, 176 137, 246 86 C 318 34, 329 7, 376 27 C 476 70, 506 137, 626 88 C 714 52, 744 13, 876 28 C 936 35, 968 8, 990 4"></path>
+<path d="M 14 105 C 94 26, 176 126, 246 75 C 318 23, 329 -4, 376 16 C 476 59, 506 126, 626 77 C 714 41, 744 2, 876 17 C 936 24, 968 -3, 990 -7"></path>
+</svg>
+<article class="skill-step skill-step--understand">
+<span class="skill-step__number">01</span>
+<h3>Understand</h3>
+<span aria-hidden="true" class="skill-step__icon skill-step__icon--understand"></span>
+<span aria-hidden="true" class="skill-step__trail"></span>
+<ul aria-label="Understand skill placeholders" class="skill-placeholders">
+<li>Requirement Analysis</li>
+<li>User Research</li>
+<li>Interviews &amp; Questionnaires</li>
+<li>Participant Recruitment</li>
+</ul>
+</article>
+<article class="skill-step skill-step--shape">
+<span class="skill-step__number">02</span>
+<h3>Shape</h3>
+<span aria-hidden="true" class="skill-step__icon skill-step__icon--shape"></span>
+<span aria-hidden="true" class="skill-step__trail"></span>
+<ul aria-label="Shape skill placeholders" class="skill-placeholders">
+<li>Personas</li>
+<li>Figma</li>
+<li>Wireframing</li>
+<li>Prototyping</li>
+<li>Human-Centered Design</li>
+</ul>
+</article>
+<article class="skill-step skill-step--build">
+<span class="skill-step__number">03</span>
+<h3>Build</h3>
+<span aria-hidden="true" class="skill-step__icon skill-step__icon--build">&lt;/&gt;</span>
+<span aria-hidden="true" class="skill-step__trail"></span>
+<ul aria-label="Build skill placeholders" class="skill-placeholders">
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>Python</li>
+</ul>
+</article>
+<article class="skill-step skill-step--testing">
+<span class="skill-step__number">04</span>
+<h3>Testing</h3>
+<span aria-hidden="true" class="skill-step__icon skill-step__icon--testing">✓</span>
+<span aria-hidden="true" class="skill-step__trail"></span>
+<ul aria-label="Testing skill placeholders" class="skill-placeholders">
+<li>Usability Evaluation</li>
+<li>Quantitative Tests</li>
+<li>Qualitative Tests</li>
+<li>Think-Aloud Method</li>
+<li>Repeated-Measures ANOVA</li>
+</ul>
+</article>
+</div>
+</div>
+<a aria-label="Continue to Ambitions" class="section-next" href="#ambitions">
+<span aria-hidden="true"></span>
+</a>
+</section>
+<section aria-labelledby="ambitions-title" class="ambitions-panel portfolio-section" id="ambitions">
+<header class="site-header site-header--section">
+<a aria-label="Alaleh Saberilemraski — Home" class="brand" href="#home">
+<img alt="AS monogram surrounded by a burgundy laurel wreath" class="brand__image" src="assets/as-logo.png"/>
+</a>
+<button aria-controls="primary-navigation-ambitions" aria-expanded="false" class="menu-toggle" type="button">
+<span class="sr-only">Open navigation</span>
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+</button>
+<nav aria-label="Ambitions page navigation" class="primary-nav" id="primary-navigation-ambitions">
+<ul class="nav-list">
+<li><a class="nav-link" href="#home">Home</a></li>
+<li class="nav-item--dropdown">
+<button aria-controls="experience-menu-ambitions" aria-expanded="false" class="nav-link dropdown-trigger" type="button">
+                  Experience
+                  <span aria-hidden="true" class="chevron"></span>
+</button>
+<ul class="dropdown" id="experience-menu-ambitions">
+<li><a href="#professional">Professional</a></li>
+<li><a href="#academic">Academic</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#skills">Skills</a></li>
+<li>
+<a class="nav-link nav-link--current" href="#ambitions">Ambitions</a>
+</li>
+</ul>
+</nav>
+<div aria-label="Social and language links" class="header-tools" role="group">
+<span aria-label="LinkedIn profile link will be added here" class="linkedin-mark" role="img" title="LinkedIn profile link to be added">in</span>
+<span class="language">
+<span aria-hidden="true" class="globe-icon"></span>
+<span>Eng</span>
+</span>
+</div>
+</header>
+<div class="ambitions-content">
+<div class="ambitions-intro">
+<div aria-hidden="true" class="ambitions-rail">
+<span class="ambitions-rail__star">✦</span>
+<span class="ambitions-rail__line"></span>
+<span class="ambitions-rail__node"><i></i></span>
+<span class="ambitions-rail__dots"><i></i><i></i><i></i></span>
+</div>
+<div class="ambitions-intro__copy">
+<h2 id="ambitions-title">The Next<br/>Chapters</h2>
+<div aria-hidden="true" class="ambitions-title-flourish">
+<span></span><b>✦</b><span></span>
+</div>
+<p>Progress, with purpose</p>
+</div>
+</div>
+<div aria-label="Ambition journey" class="ambitions-scene">
+<div class="ambition-notes">
+<article class="ambition-note ambition-note--now">
+<!-- Edit this card heading if needed. -->
+<h3>Now <span>·</span> Short term</h3>
+<div aria-hidden="true" class="ambition-note__flourish">
+<span></span><b>✦</b><span></span>
+</div>
+<div aria-label="Short-term ambition text placeholders" class="ambition-copy-placeholders">
+
+<span>Find a student job aligned with my experiences and interests</span>
+<span>Improve my German</span>
+</div>
+<span aria-hidden="true" class="ambition-note__symbol">✧</span>
+</article>
+<article class="ambition-note ambition-note--next">
+<!-- Edit this card heading if needed. -->
+<h3>Next <span>·</span> Long term</h3>
+<div aria-hidden="true" class="ambition-note__flourish">
+<span></span><b>✦</b><span></span>
+</div>
+<div aria-label="Long-term ambition text placeholders" class="ambition-copy-placeholders">
+<!-- Add long-term text inside the three empty spans below. -->
+<span>Finish my Studies</span>
+<span>Graduate from my Master's program</span>
+<span>Build a Usability career in Germany</span>
+</div>
+<span aria-hidden="true" class="ambition-note__symbol">✧</span>
+</article>
+</div>
+</div>
+</div>
+<footer class="ambitions-footer">
+<span aria-hidden="true">✦</span>
+<!-- Edit the closing sentence below if needed. -->
+<p>Let’s create useful, human-centered experiences.</p>
+<button class="copy-email-button" data-copy-email="saberialaleh@gmail.com" type="button">
+            Get in touch
+          </button>
+<span aria-hidden="true">✦</span>
+</footer>
+</section>
+</div>
+<div aria-live="polite" class="copy-toast" hidden="" role="status">
+      Email copied
+    </div>
+</body>
+</html>
